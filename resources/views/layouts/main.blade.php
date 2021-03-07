@@ -141,7 +141,7 @@
                             <i class="fas fa-user"></i> <span class="clearfix d-none d-sm-inline-block">Profile</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                            <a class="dropdown-item" href="#">Log Out</a>
+                            <a class="dropdown-item" href="{{route('logout')}}">Log Out</a>
                             <a class="dropdown-item" href="{{route('myProfile')}}">My account</a>
                         </div>
                     </li>
