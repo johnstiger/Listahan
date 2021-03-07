@@ -26,7 +26,7 @@ Route::middleware(['auth'])->group(function(){
 
 Route::middleware(['admin'])->group(function () {
     Route::view('/','login')->name('login');
-    Route::view('/listahan','landingPage');
+    Route::view('/listahan','landingPage')->name('register');
 });
 
 Route::post('/listahan/login','Admin\AdminController@login')->name('login/admin');
