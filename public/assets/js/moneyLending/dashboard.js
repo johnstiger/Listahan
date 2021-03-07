@@ -40,7 +40,7 @@ var myBarChart = new Chart(ctxB, {
     data: {
         labels: ["January", "Febuary", "March", "April", "May"],
         datasets: [{
-            label: '# of Votes',
+            label: 'Money Lending',
             data: [13, 19, 8, 11, 5],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.3)',

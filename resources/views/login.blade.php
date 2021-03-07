@@ -15,7 +15,7 @@
   <!-- Custom styles -->
   <style>
     .login{
-        background-image: url("https://cdn.hipwallpaper.com/i/41/62/aRBDc4.jpg");
+        background-image: url("https://www.lifeofpix.com/wp-content/uploads/2018/07/270-niwat5455546521-chim.jpg");
         background-size: cover;
     }
     .view {
@@ -23,7 +23,7 @@
     }
     .card{
       background: transparent;
-      color: black;
+      border: 1px solid dimgray;
     }
     .alert{
         background: transparent;
@@ -68,10 +68,10 @@
                   <h1 class="h1-responsive font-weight-bold wow fadeInLeft" data-wow-delay="0.3s">Listahan System
                   </h1>
                   <hr class="hr-light wow fadeInLeft" data-wow-delay="0.3s">
-                  <h6 class="wow fadeInLeft" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit. Rem repellendus quasi fuga
-                    nesciunt dolorum nulla magnam veniam sapiente, fugiat! Commodi sequi non animi ea
-                    dolor molestiae, quisquam iste, maiores. Nulla.</h6>
+                  <h6 class="wow fadeInLeft" data-wow-delay="0.3s">
+                      This system is contain of different category which is list for money lending,
+                      money management and list for costumers for lending a products.
+                  </h6>
                   <br>
                   <a class="btn btn-outline-white btn-rounded wow fadeInLeft" data-wow-delay="0.3s">Learn more</a>
                 </div>
@@ -85,7 +85,7 @@
                   <div class="card-body">
                     <!-- Header -->
                     <div class="text-center">
-                      <h3 class="white-text"><i class="fas fa-user white-text"></i> Log In</h3>
+                      <h3 class="text-white"><i class="fas fa-user white-text"></i> Log In</h3>
                       <hr class="hr-light">
                     </div>
                     @if (session('error') )
@@ -97,7 +97,7 @@
                     <!-- Body -->
                     <div class="md-form">
                       <i class="fas fa-envelope prefix white-text"></i>
-                      <input type="text" id="form2" class="form-control" name="email" value="{{ old('email') }}">
+                      <input type="text" id="form2" class="form-control white-text" name="email" value="{{ old('email') }}">
                       @error('email')
                           <span style="color: red">*{{ $message }}</span>
                       @enderror
@@ -106,7 +106,7 @@
 
                     <div class="md-form">
                       <i class="fas fa-lock prefix white-text"></i>
-                      <input type="password" id="form4" class="form-control" name="password">
+                      <input type="password" id="form4" class="form-control white-text" name="password">
                       <label for="form4" class="white-text">Your password</label>
                       @error('password')
                           <span style="color: red">*{{ $message }}</span>

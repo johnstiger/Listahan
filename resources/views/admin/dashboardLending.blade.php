@@ -39,9 +39,9 @@
 
                 <div class="col-md-7 col-7 text-right pr-5">
 
-                  <h5 class="ml-4 mt-4 mb-2 font-weight-bold">4,567 </h5>
+                  <h5 class="ml-4 mt-4 mb-2 font-weight-bold">0</h5>
 
-                  <p class="font-small grey-text">Unique Visitors</p>
+                  <p class="font-small grey-text">New Costumers</p>
                 </div>
 
               </div>
@@ -52,13 +52,13 @@
 
                 <div class="col-md-7 col-7 text-left pl-4">
 
-                  <p class="font-small font-up ml-4 font-weight-bold">Last month</p>
+                  <p class="font-small font-up ml-4 font-weight-bold">This month</p>
 
                 </div>
 
                 <div class="col-md-5 col-5 text-right pr-5">
 
-                  <p class="font-small grey-text">145,567</p>
+                  <p class="font-small grey-text">0</p>
                 </div>
 
               </div>
@@ -88,8 +88,8 @@
 
                 <div class="col-md-7 col-7 text-right pr-5">
 
-                  <h5 class="ml-4 mt-4 mb-2 font-weight-bold">4,567 </h5>
-                  <p class="font-small grey-text">New Users</p>
+                  <h5 class="ml-4 mt-4 mb-2 font-weight-bold">0 </h5>
+                  <p class="font-small grey-text">All Customers</p>
 
                 </div>
 
@@ -100,11 +100,11 @@
               <div class="row my-3">
 
                 <div class="col-md-7 col-7 text-left pl-4">
-                  <p class="font-small font-up ml-4 font-weight-bold">Last month</p>
+                  <p class="font-small font-up ml-4 font-weight-bold">Latest</p>
                 </div>
 
                 <div class="col-md-5 col-5 text-right pr-5">
-                  <p class="font-small grey-text">145,567</p>
+                  <p class="font-small grey-text">0</p>
                 </div>
 
               </div>
@@ -131,8 +131,8 @@
                 </div>
 
                 <div class="col-md-7 col-7 text-right pr-5">
-                  <h5 class="ml-4 mt-4 mb-2 font-weight-bold">4,567 </h5>
-                  <p class="font-small grey-text">Total Sales</p>
+                  <h5 class="ml-4 mt-4 mb-2 font-weight-bold">0</h5>
+                  <p class="font-small grey-text">Total Lending</p>
                 </div>
 
               </div>
@@ -143,13 +143,13 @@
 
                 <!-- Grid column -->
                 <div class="col-md-7 col-7 text-left pl-4">
-                  <p class="font-small font-up ml-4 font-weight-bold">Last month</p>
+                  <p class="font-small font-up ml-4 font-weight-bold">This month</p>
                 </div>
                 <!-- Grid column -->
 
                 <!-- Grid column -->
                 <div class="col-md-5 col-5 text-right pr-5">
-                  <p class="font-small grey-text">145,567</p>
+                  <p class="font-small grey-text">0</p>
                 </div>
                 <!-- Grid column -->
 
@@ -172,13 +172,13 @@
               <div class="row mt-3">
 
                 <div class="col-md-5 col-5 text-left pl-4">
-                  <a type="button" class="btn-floating btn-lg red accent-2 ml-4"><i class="fas fa-database"
+                  <a type="button" class="btn-floating btn-lg red accent-2 ml-4"><i class="fas fa-user"
                       aria-hidden="true"></i></a>
                 </div>
 
                 <div class="col-md-7 col-7 text-right pr-5">
-                  <h5 class="ml-4 mt-4 mb-2 font-weight-bold">4,567</h5>
-                  <p class="font-small grey-text">Order Amount</p>
+                  <h5 class="ml-4 mt-4 mb-2 font-weight-bold">0</h5>
+                  <p class="font-small grey-text">Not Paid</p>
                 </div>
 
               </div>
@@ -188,11 +188,11 @@
               <div class="row my-3">
 
                 <div class="col-md-7 col-7 text-left pl-4">
-                  <p class="font-small font-up ml-4 font-weight-bold">Last week</p>
+                  <p class="font-small font-up ml-4 font-weight-bold">This month</p>
                 </div>
 
                 <div class="col-md-5 col-5 text-right pr-5">
-                  <p class="font-small grey-text">145,567</p>
+                  <p class="font-small grey-text">0</p>
                 </div>
 
               </div>
@@ -229,7 +229,7 @@
 
                 <!-- Card image -->
                 <div class="view view-cascade gradient-card-header light-blue lighten-1">
-                  <h4 class="h4-responsive mb-0 font-weight-bold">Traffic</h4>
+                  <h4 class="h4-responsive mb-0 font-weight-bold">Money Lending</h4>
                 </div>
                 <!-- Card image -->
 
@@ -593,64 +593,6 @@
           <!-- Grid column -->
           <div class="col-xl-5 col-md-12">
 
-            <!-- Card -->
-            <div class="card mb-4">
-
-              <!-- Card Data -->
-              <div class="row">
-
-                <div class="col-md-12 text-center">
-                  <h5 class="mt-4 mb-4 font-weight-bold">Monthly Sales</h5>
-                </div>
-
-              </div>
-
-              <!-- Card content -->
-              <div class="card-body">
-
-                <div class="progress mb-2 mt-1">
-
-                  <div class="progress-bar warning-color" role="progressbar" style="width: 55%" aria-valuenow="25"
-                    aria-valuemin="0" aria-valuemax="100">
-                  </div>
-
-                </div>
-
-                <!-- Text -->
-                <p class="font-small grey-text mb-4">January</p>
-
-                <div class="progress mb-2">
-                  <div class="progress-bar red accent-2" role="progressbar" style="width: 35%" aria-valuenow="25"
-                    aria-valuemin="0" aria-valuemax="100">
-                  </div>
-                </div>
-
-                <!-- Text -->
-                <p class="font-small grey-text mb-4">Febuary</p>
-
-                <div class="progress mb-2">
-
-                  <div class="progress-bar primary-color" role="progressbar" style="width: 85%" aria-valuenow="25"
-                    aria-valuemin="0" aria-valuemax="100">
-                  </div>
-
-                </div>
-
-                <!-- Text -->
-                <p class="font-small grey-text mb-4">March</p>
-
-                <div class="progress mb-2">
-                  <div class="progress-bar light-blue lighten-1" role="progressbar" style="width: 70%"
-                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <!-- Text -->
-                <p class="font-small grey-text mb-2">April</p>
-              </div>
-              <!-- Card content -->
-
-            </div>
-            <!-- Card -->
-
           </div>
           <!-- Grid column -->
 
@@ -658,136 +600,11 @@
           <!-- Grid column -->
           <div class="col-xl-3 col-md-6 mb-2">
 
-            <!-- Card -->
-            <div class="card">
-
-              <!-- Card Data -->
-              <div class="row mt-4 mb-3">
-
-                <div class="col-md-3 col-3 text-left pl-4">
-
-                  <!-- Facebook -->
-                  <a class="p-2 m-2 fa-lg fb-ic"><i class="fab fa-facebook-f fa-2x blue-text"> </i></a>
-
-                </div>
-
-                <div class="col-md-9 col-9 text-right pr-5">
-
-                  <p class="font-small grey-text mb-1">Facebook Users</p>
-                  <h5 class="ml-4 mb-2 font-weight-bold">4,567 </h5>
-
-                </div>
-              </div>
-              <!-- Card Data -->
-
-            </div>
-            <!-- Card -->
-
-            <!-- Card -->
-            <div class="card mt-4">
-
-              <!-- Card Data -->
-              <div class="row mt-4 mb-3">
-
-                <div class="col-md-3 col-3 text-left pl-4">
-
-                  <!-- Facebook -->
-                  <a class="p-2 m-2 fa-lg fb-ic"><i class="fab fa-google-plus-g fa-2x red-text"> </i></a>
-
-                </div>
-
-                <div class="col-md-9 col-9 text-right pr-5">
-
-                  <p class="font-small grey-text mb-1">Google+ Users</p>
-                  <h5 class="ml-4 mb-2 font-weight-bold">2,669 </h5>
-
-                </div>
-              </div>
-              <!-- Card Data -->
-
-            </div>
-            <!-- Card -->
-
-            <!-- Card -->
-            <div class="card mt-4 mb-4">
-
-              <!-- Card Data -->
-              <div class="row mt-4 mb-3">
-
-                <div class="col-md-3 col-3 text-left pl-4">
-
-                  <!-- Facebook -->
-                  <a class="p-2 m-2 fa-lg fb-ic"><i class="fab fa-twitter fa-2x cyan-text"> </i></a>
-
-                </div>
-
-                <div class="col-md-9 col-9 text-right pr-5">
-
-                  <p class="font-small grey-text mb-1">Twitter Users</p>
-                  <h5 class="ml-4 mb-2 font-weight-bold">3,562 </h5>
-
-                </div>
-              </div>
-              <!-- Card Data -->
-
-            </div>
-            <!-- Card -->
-
           </div>
           <!-- Grid column -->
 
           <!-- Grid column -->
           <div class="col-xl-4 col-md-6 mb-2">
-
-            <!-- Card -->
-            <div class="card mb-4">
-
-              <div class="card-body">
-
-                <div class="table-responsive">
-
-                  <table class="table large-header mb-1">
-
-                    <thead>
-                      <tr>
-                        <th class="font-weight-bold"><strong>Month</strong></th>
-                        <th class="font-weight-bold"><strong>Visits</strong></th>
-                        <th class="font-weight-bold"><strong>Sales</strong></th>
-                      </tr>
-                    </thead>
-
-                    <tbody>
-                      <tr>
-                        <td>January</td>
-                        <td>15</td>
-                        <td>307</td>
-                      </tr>
-                      <tr>
-                        <td>Febuary</td>
-                        <td>32</td>
-                        <td>504</td>
-                      </tr>
-                      <tr>
-                        <td>March</td>
-                        <td>41</td>
-                        <td>613</td>
-                      </tr>
-
-                    </tbody>
-
-                  </table>
-
-                </div>
-
-                <button
-                  class="btn btn-flat grey lighten-3 btn-rounded waves-effect float-right font-weight-bold btn-dash">View
-                  full report</button>
-
-              </div>
-
-            </div>
-            <!-- Card -->
-
           </div>
           <!-- Grid column -->
 
