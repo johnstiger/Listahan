@@ -19,9 +19,10 @@ Route::middleware(['auth'])->group(function(){
     Route::view('/dashboard/money_lending','admin.dashboardLending')->name('moneyLending');
     Route::view('/dashboard/products','admin.dashboardProduct')->name('products');
     Route::view('/dashboard/money_management','admin.dashboardManagement')->name('moneyManagement');
-    Route::view('/customers','admin.customers')->name('customers');
+    Route::get('/customers','Admin\AdminController@index')->name('customers');
     Route::view('/myProfile','admin.myProfile')->name('myProfile');
     Route::get('/logout','Admin\AdminController@logout')->name('logout');
+    Route::post('/customer/profile/{id}','Admin\AdminController@show')->name('showCustomer');
 });
 
 Route::middleware(['admin'])->group(function () {

@@ -59,7 +59,7 @@
                         <!-- Simple link -->
                         <li>
                             <a href="{{route('customers')}}" class="collapsible-header waves-effect" ><i
-                  class="w-fa far fa-address-book"></i>Customers</a>
+                  class="w-fa far fa-address-book"></i>All Customers</a>
                         </li>
                         <li>
                             <a href="../modals/modals.html" class="collapsible-header waves-effect"><i
@@ -76,6 +76,10 @@
                         <li>
                             <a href="../sections/sections.html" class="collapsible-header waves-effect"><i
                   class="w-fa fas fa-calendar-times"></i>Due Date Pay</a>
+                        </li>
+                        <li>
+                            <a href="../sections/sections.html" class="collapsible-header waves-effect"><i
+                  class="w-fa fas fa-trash"></i>Recycle Bin</a>
                         </li>
 
                     </ul>

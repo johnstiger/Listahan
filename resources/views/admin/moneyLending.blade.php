@@ -21,8 +21,6 @@
                             <table id="dtMaterialDesignExample" class="table table-striped" cellspacing="0" width="100%">
                                 <thead>
                                     <tr>
-                                        <th>ID
-                                        </th>
                                         <th>First Name
                                         </th>
                                         <th>Last Name
@@ -39,10 +37,9 @@
                                         </th>
                                     </tr>
                                 </thead>
-                                <tbody >
+                                <tbody>
                                     @foreach ($customers as $customer)
                                     <tr>
-                                        <td>{{ $customer->id }}</td>
                                         <td>{{ $customer->firstname }}</td>
                                         <td>{{ $customer->lastname }}</td>
                                         <td>{{ $customer->middlename }}</td>
@@ -50,27 +47,22 @@
                                         <td>{{ $customer->gender }}</td>
                                         <td>{{ $customer->address }}</td>
                                         <td>{{ $customer->contact_number }}</td>
-                                        <form action="{{ route('showCustomer',$customer->id) }}" class="formProfile" method="post">@csrf</form>
                                     </tr>
                                     @endforeach
                                 </tbody>
                                 <tfoot>
                                     <tr>
-                                        <th>ID
+                                        <th>Name
                                         </th>
-                                        <th>First Name
+                                        <th>Position
                                         </th>
-                                        <th>Last Name
-                                        </th>
-                                        <th>Middle Name
+                                        <th>Office
                                         </th>
                                         <th>Age
                                         </th>
-                                        <th>Gender
+                                        <th>Start date
                                         </th>
-                                        <th>Address
-                                        </th>
-                                        <th>Contact Number
+                                        <th>Salary
                                         </th>
                                     </tr>
                                 </tfoot>

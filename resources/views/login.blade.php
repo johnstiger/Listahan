@@ -26,7 +26,6 @@
       border: 1px solid dimgray;
     }
     .alert{
-        background: transparent;
         color: red;
     }
     html,

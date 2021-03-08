@@ -1,14 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
-use App\Http\Requests\AdminRequest;
 use App\Models\Customer;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 
-class AdminController extends Controller
+class CustomerController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -17,8 +14,7 @@ class AdminController extends Controller
      */
     public function index()
     {
-        $customers = Customer::orderBy('created_at','DESC')->get();
-        return view('admin.customers',compact('customers'));
+        //
     }
 
     /**
@@ -39,7 +35,7 @@ class AdminController extends Controller
      */
     public function store(Request $request)
     {
-
+        //
     }
 
     /**
@@ -50,7 +46,7 @@ class AdminController extends Controller
      */
     public function show($id)
     {
-        $customer = Customer::where('id',$id)->first();
+        $customer = Customer::find($id)->first();
         return view('admin.customerProfile',compact('customer'));
     }
 
@@ -87,22 +83,4 @@ class AdminController extends Controller
     {
         //
     }
-
-    public function login(AdminRequest $request){
-
-        $credentials = $request->only('email', 'password');
-
-        if (!Auth::attempt($credentials)) {
-            return back()->with('error','Incorrect Email or Password');
-        }
-        return redirect()->route('moneyLending');
-
-    }
-
-    public function logout()
-    {
-        Auth::logout();
-        return redirect('/');
-    }
-
 }

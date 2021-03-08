@@ -7,7 +7,7 @@ var ps = new PerfectScrollbar(container, {
     minScrollbarLength: 20
 });
 
-$('#dtMaterialDesignExample').DataTable();
+var table = $('#dtMaterialDesignExample').DataTable();
 
 $('#dt-material-checkbox').dataTable({
 
@@ -40,3 +40,8 @@ $('#dtMaterialDesignExample_wrapper select, #dt-material-checkbox_wrapper select
 $('#dtMaterialDesignExample_wrapper .mdb-select, #dt-material-checkbox_wrapper .mdb-select').materialSelect;
 $('#dtMaterialDesignExample_wrapper .dataTables_filte, #dt-material-checkbox_wrapper .dataTables_filterr').find(
     'label').remove();
+
+$('#dtMaterialDesignExample tbody').on('click', 'tr', function () {
+    var data = table.row( this ).selector.rows.children[8];
+    data.submit();
+} );
